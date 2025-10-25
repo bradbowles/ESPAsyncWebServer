@@ -50,7 +50,7 @@
 #include "AsyncWebServerVersion.h"
 #define ASYNCWEBSERVER_FORK_ESP32Async
 
-static const String emptyString = String();
+extern const String emptyString;
 
 #ifdef ASYNCWEBSERVER_REGEX
 #include <regex>
